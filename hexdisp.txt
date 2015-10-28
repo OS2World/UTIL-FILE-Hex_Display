@@ -1,0 +1,30 @@
+						HEX DISPLAY
+
+	This program is shows a couple of things. One the use of the 
+DosAllocHuge API call. This one of the things that OS/2 does very well.
+OS/2 supports virual memory which means that you can use more memory that
+you have install in the computer. When all of the Ram is used then OS/2
+swapping to the disk, so you have almost unlimited memory (up to the free
+space on your disk).
+
+	This program was copied out of the book called
+					OS/2 Programmer's Guide
+					written by Ed Iacobucci
+
+I had to make modifications to the program to make it work properly. The
+program did not support the IBM enhanced keyboard and the fopen function
+was not written correctly. I change some other routines because of errors
+in them.
+	I'm including the source code for the program, but I can not include
+the file called : Doscalls.inc as that is a copywrited file by Microsoft.
+You can very easily create the macro's included in this file. 
+	I included a version of the program that was made using the FAM API
+which means that it will run both under OS/2 and DOS. The hexdisp.com
+file will work under both OS/2 and DOS and the file hexdisp.exe will work
+under OS/2 only. Notice the difference in size !!
+
+	If you have any problems or want more information on OS/2 call
+						Compu-Plane
+						818 843-4874
+						300/1200/2400
+						24hrs
